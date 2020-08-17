@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 class MegaAnfitrion
     attr_accessor :nombres
   
@@ -17,7 +19,7 @@ class MegaAnfitrion
           puts "Hola #{nombre}"
         end
       else
-    puts "Hola #{@nombres}"
+        puts "Hola #{@nombres}"
       end
     end
   
